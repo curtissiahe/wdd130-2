@@ -3,6 +3,7 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://coolors.co/d0efb1-b3d89c-9dc3c2-77a6b6-4d7298');
 
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:ital,wght@1,300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #b3d89c   ;
@@ -11,8 +12,8 @@ Fonts are separated by a | */
   --accent2-color: #4d7298;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "cedarville cursive";
+  --paragraph-font: :ital, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
@@ -57,6 +58,7 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
+  
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
