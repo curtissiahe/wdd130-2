@@ -292,6 +292,35 @@ nav{
     opacity: .6;
     transform: scale(1.1);
 }
+
+
+
+
+
+.impression{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.nature1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+
+   
+    
+    
+
+
+.intro{
+    color: black;
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -333,6 +362,9 @@ nav{
         margin-top: 25px;
     }
 }
+
+
+
         
 
 
